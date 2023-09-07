@@ -1,0 +1,60 @@
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 32 2000
+index load
+extract test  2000 times
+average_extract time: 42.8745
+locate test  2000 times
+average_locate time: 7837.35
+count test  2000 times
+average_count time :45.145
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.536413
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 64 2000
+index load
+extract test  2000 times
+average_extract time: 64.5405
+locate test  2000 times
+average_locate time: 24053.4
+count test  2000 times
+average_count time :47.2575
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.411382
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 128 2000
+index load
+extract test  2000 times
+average_extract time: 99.0325
+locate test  2000 times
+average_locate time: 53596.5
+count test  2000 times
+average_count time :45.3005
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.350805
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 256 2000
+index load
+extract test  2000 times
+average_extract time: 161.007
+locate test  2000 times
+average_locate time: 104987
+count test  2000 times
+average_count time :46.5635
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.321477
+  
+  

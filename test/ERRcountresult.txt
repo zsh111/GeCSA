@@ -1,0 +1,255 @@
+./testcase /home/lab/lab/lp/samcode/ERR194147_2.fastq.dna 32 128 30
+Be sure that the file is available
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR194147_2.fastq.dna 64 128 30
+Be sure that the file is available
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR194147_2.fastq.dna 128 128 30
+Be sure that the file is available
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR194147_2.fastq.qual 32 128 30
+the size of file is 8589934557 Bytes 
+gap test
+1-gap-num: 3352252480
+1_ratio: 0.390254
+len_all_runs: 3352252479
+average_runs: 2.70757
+
+ecode block ratio
+block_gamma: 0.161933
+block_bv: 0.762541
+block_allone: 0.0119271
+block_rldelta: 0.063599
+phi arr cus
+extract test  30 times
+average_extract time: 67.0333
+locate test  30 times
+average_locate time: 200502
+count test  30 times
+average_count time :58.1
+space_gamma_phi: 0.189326
+space_bv_phi: 0.424918
+space_allone_phi: 0
+space_rldelta_phi: 0.10393
+compressRatioForAll: 0.796163
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR194147_2.fastq.qual 64 128 30
+the size of file is 8589934557 Bytes 
+gap test
+1-gap-num: 3352252480
+1_ratio: 0.390254
+len_all_runs: 3352252479
+average_runs: 2.70757
+
+ecode block ratio
+block_gamma: 0.170222
+block_bv: 0.753269
+block_allone: 0.00414898
+block_rldelta: 0.0723602
+phi arr cus
+extract test  30 times
+average_extract time: 79.1333
+locate test  30 times
+average_locate time: 271909
+count test  30 times
+average_count time :63.7
+space_gamma_phi: 0.231422
+space_bv_phi: 0.489831
+space_allone_phi: 0
+space_rldelta_phi: 0.114438
+compressRatioForAll: 0.704328
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR194147_2.fastq.qual 128 128 30
+the size of file is 8589934557 Bytes 
+gap test
+1-gap-num: 3352252480
+1_ratio: 0.390254
+len_all_runs: 3352252479
+average_runs: 2.70757
+
+ecode block ratio
+block_gamma: 0.176067
+block_bv: 0.748231
+block_allone: 0.00147666
+block_rldelta: 0.0742257
+phi arr cus
+extract test  30 times
+average_extract time: 87.6333
+locate test  30 times
+average_locate time: 260798
+count test  30 times
+average_count time :63.1
+space_gamma_phi: 0.260259
+space_bv_phi: 0.529445
+space_allone_phi: 0
+space_rldelta_phi: 0.119924
+compressRatioForAll: 0.657251
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 32 128 30
+the size of file is 8589934557 Bytes 
+gap test
+1-gap-num: 7069520251
+1_ratio: 0.823
+len_all_runs: 7069519949
+average_runs: 9.70069
+
+ecode block ratio
+block_gamma: 0.14965
+block_bv: 0.523031
+block_allone: 0.0858951
+block_rldelta: 0.241424
+phi arr cus
+extract test  30 times
+average_extract time: 71.7
+locate test  30 times
+average_locate time: 60517
+count test  30 times
+average_count time :113.7
+space_gamma_phi: 0.116326
+space_bv_phi: 0.312201
+space_allone_phi: 0
+space_rldelta_phi: 0.127397
+compressRatioForAll: 0.530016
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 64 128 30
+the size of file is 8589934557 Bytes 
+gap test
+1-gap-num: 7069520251
+1_ratio: 0.823
+len_all_runs: 7069519949
+average_runs: 9.70069
+
+ecode block ratio
+block_gamma: 0.114719
+block_bv: 0.444893
+block_allone: 0.0451418
+block_rldelta: 0.395246
+phi arr cus
+extract test  30 times
+average_extract time: 65.4333
+locate test  30 times
+average_locate time: 47110.2
+count test  30 times
+average_count time :43.6667
+space_gamma_phi: 0.10922
+space_bv_phi: 0.369198
+space_allone_phi: 0
+space_rldelta_phi: 0.235594
+compressRatioForAll: 0.433472
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 128 128 30
+the size of file is 8589934557 Bytes 
+gap test
+1-gap-num: 7069520251
+1_ratio: 0.823
+len_all_runs: 7069519949
+average_runs: 9.70069
+
+ecode block ratio
+block_gamma: 0.0748852
+block_bv: 0.397959
+block_allone: 0.0232503
+block_rldelta: 0.503905
+phi arr cus
+extract test  30 times
+average_extract time: 101.8
+locate test  30 times
+average_locate time: 85721.8
+count test  30 times
+average_count time :64.4667
+space_gamma_phi: 0.0819569
+space_bv_phi: 0.399853
+space_allone_phi: 0
+space_rldelta_phi: 0.349062
+compressRatioForAll: 0.382728
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.qual 32 128 30
+the size of file is 8589934557 Bytes 
+gap test
+1-gap-num: 3042185014
+1_ratio: 0.354157
+len_all_runs: 3042185013
+average_runs: 2.42842
+
+ecode block ratio
+block_gamma: 0.172503
+block_bv: 0.751022
+block_allone: 0.0114508
+block_rldelta: 0.0650236
+phi arr cus
+extract test  30 times
+average_extract time: 75.2333
+locate test  30 times
+average_locate time: 3.5532e+06
+count test  30 times
+average_count time :54.4
+space_gamma_phi: 0.193402
+space_bv_phi: 0.432301
+space_allone_phi: 0
+space_rldelta_phi: 0.103053
+compressRatioForAll: 0.824585
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.qual 64 128 30
+the size of file is 8589934557 Bytes 
+gap test
+1-gap-num: 3042185014
+1_ratio: 0.354157
+len_all_runs: 3042185013
+average_runs: 2.42842
+
+ecode block ratio
+block_gamma: 0.1807
+block_bv: 0.740684
+block_allone: 0.00364812
+block_rldelta: 0.0749675
+phi arr cus
+extract test  30 times
+average_extract time: 57.9667
+locate test  30 times
+average_locate time: 3.57041e+06
+count test  30 times
+average_count time :50.4667
+space_gamma_phi: 0.234088
+space_bv_phi: 0.495665
+space_allone_phi: 0
+space_rldelta_phi: 0.113105
+compressRatioForAll: 0.733363
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.qual 128 128 30
+the size of file is 8589934557 Bytes 
+gap test
+1-gap-num: 3042185014
+1_ratio: 0.354157
+len_all_runs: 3042185013
+average_runs: 2.42842
+
+ecode block ratio
+block_gamma: 0.186588
+block_bv: 0.734658
+block_allone: 0.000586584
+block_rldelta: 0.0781675
+phi arr cus
+extract test  30 times
+average_extract time: 336.8
+locate test  30 times
+average_locate time: 3.95329e+06
+count test  30 times
+average_count time :53.2667
+space_gamma_phi: 0.261782
+space_bv_phi: 0.533719
+space_allone_phi: 0
+space_rldelta_phi: 0.118401
+compressRatioForAll: 0.686515
+  
+  

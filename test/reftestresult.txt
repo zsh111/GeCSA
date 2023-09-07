@@ -1,0 +1,216 @@
+./testcase /media/lab/MyPassport/gll/human-ref/hg19-ucsc/hg19.fa/hg19.fa 256 32 2000
+the size of file is 3199905909 Bytes 
+gap test
+1-gap-num: 1395041528
+1_ratio: 0.435963
+len_all_runs: 1395041528
+average_runs: 2.66234
+
+ecode block ratio
+block_gamma: 0.0370828
+block_bv: 0.847531
+block_allone: 0.0765062
+block_rldelta: 0.0388803
+phi arr cus
+extract test  2000 times
+average_extract time: 26.784
+locate test  2000 times
+average_locate time: 1.0109e+06
+count test  2000 times
+average_count time :94.2605
+space_gamma_phi: 0.0603122
+space_bv_phi: 0.837435
+space_allone_phi: 0
+space_rldelta_phi: 0.0443593
+compressRatioForAll: 0.709488
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/hg19-ucsc/hg19.fa/hg19.fa 256 64 2000
+the size of file is 3199905909 Bytes 
+gap test
+1-gap-num: 1395041528
+1_ratio: 0.435963
+len_all_runs: 1395041528
+average_runs: 2.66234
+
+ecode block ratio
+block_gamma: 0.0370828
+block_bv: 0.847531
+block_allone: 0.0765062
+block_rldelta: 0.0388803
+phi arr cus
+extract test  2000 times
+average_extract time: 36.174
+locate test  2000 times
+average_locate time: 983531
+count test  2000 times
+average_count time :36.4925
+space_gamma_phi: 0.0603122
+space_bv_phi: 0.837435
+space_allone_phi: 0
+space_rldelta_phi: 0.0443593
+compressRatioForAll: 0.584457
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/hg19-ucsc/hg19.fa/hg19.fa 256 128 2000
+the size of file is 3199905909 Bytes 
+gap test
+1-gap-num: 1395041528
+1_ratio: 0.435963
+len_all_runs: 1395041528
+average_runs: 2.66234
+
+ecode block ratio
+block_gamma: 0.0370828
+block_bv: 0.847531
+block_allone: 0.0765062
+block_rldelta: 0.0388803
+phi arr cus
+extract test  2000 times
+average_extract time: 55.206
+locate test  2000 times
+average_locate time: 966444
+count test  2000 times
+average_count time :37.101
+space_gamma_phi: 0.0603122
+space_bv_phi: 0.837435
+space_allone_phi: 0
+space_rldelta_phi: 0.0443593
+compressRatioForAll: 0.52388
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/hg19-ucsc/hg19.fa/hg19.fa 256 256 2000
+the size of file is 3199905909 Bytes 
+gap test
+1-gap-num: 1395041528
+1_ratio: 0.435963
+len_all_runs: 1395041528
+average_runs: 2.66234
+
+ecode block ratio
+block_gamma: 0.0370828
+block_bv: 0.847531
+block_allone: 0.0765062
+block_rldelta: 0.0388803
+phi arr cus
+extract test  2000 times
+average_extract time: 96.3995
+locate test  2000 times
+average_locate time: 952516
+count test  2000 times
+average_count time :36.72
+space_gamma_phi: 0.0603122
+space_bv_phi: 0.837435
+space_allone_phi: 0
+space_rldelta_phi: 0.0443593
+compressRatioForAll: 0.494552
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 256 32 2000
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0297105
+block_bv: 0.866745
+block_allone: 0.0546149
+block_rldelta: 0.0489294
+phi arr cus
+extract test  2000 times
+average_extract time: 25.978
+locate test  2000 times
+average_locate time: 532139
+count test  2000 times
+average_count time :36.504
+space_gamma_phi: 0.0436489
+space_bv_phi: 0.856492
+space_allone_phi: 0
+space_rldelta_phi: 0.043124
+compressRatioForAll: 0.710279
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 256 64 2000
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0297105
+block_bv: 0.866745
+block_allone: 0.0546149
+block_rldelta: 0.0489294
+phi arr cus
+extract test  2000 times
+average_extract time: 35.3515
+locate test  2000 times
+average_locate time: 583667
+count test  2000 times
+average_count time :36.111
+space_gamma_phi: 0.0436489
+space_bv_phi: 0.856492
+space_allone_phi: 0
+space_rldelta_phi: 0.043124
+compressRatioForAll: 0.585248
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 256 128 2000
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0297105
+block_bv: 0.866745
+block_allone: 0.0546149
+block_rldelta: 0.0489294
+phi arr cus
+extract test  2000 times
+average_extract time: 72.56
+locate test  2000 times
+average_locate time: 590755
+count test  2000 times
+average_count time :36.1665
+space_gamma_phi: 0.0436489
+space_bv_phi: 0.856492
+space_allone_phi: 0
+space_rldelta_phi: 0.043124
+compressRatioForAll: 0.524671
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 256 256 2000
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0297105
+block_bv: 0.866745
+block_allone: 0.0546149
+block_rldelta: 0.0489294
+phi arr cus
+extract test  2000 times
+average_extract time: 93.58
+locate test  2000 times
+average_locate time: 607052
+count test  2000 times
+average_count time :42.5395
+space_gamma_phi: 0.0436489
+space_bv_phi: 0.856492
+space_allone_phi: 0
+space_rldelta_phi: 0.043124
+compressRatioForAll: 0.495343
+  
+  

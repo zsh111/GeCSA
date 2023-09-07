@@ -1,0 +1,81 @@
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 32 128 30
+the size of file is 4187592310 Bytes 
+gap test
+1-gap-num: 3440313657
+1_ratio: 0.821549
+len_all_runs: 3440313657
+average_runs: 9.72661
+
+ecode block ratio
+block_gamma: 0.154933
+block_bv: 0.52436
+block_allone: 0.119847
+block_rldelta: 0.20086
+phi arr cus
+extract test  30 times
+average_extract time: 95.8333
+locate test  30 times
+average_locate time: 3809.9
+count test  30 times
+average_count time :39.6667
+space_gamma_phi: 0.1248
+space_bv_phi: 0.32321
+space_allone_phi: 0
+space_rldelta_phi: 0.108897
+compressRatioForAll: 0.518258
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 64 128 30
+the size of file is 4187592310 Bytes 
+gap test
+1-gap-num: 3440313657
+1_ratio: 0.821549
+len_all_runs: 3440313657
+average_runs: 9.72661
+
+ecode block ratio
+block_gamma: 0.130954
+block_bv: 0.452021
+block_allone: 0.0726058
+block_rldelta: 0.344419
+phi arr cus
+extract test  30 times
+average_extract time: 89.2667
+locate test  30 times
+average_locate time: 3670.67
+count test  30 times
+average_count time :36.9333
+space_gamma_phi: 0.128269
+space_bv_phi: 0.387119
+space_allone_phi: 0
+space_rldelta_phi: 0.200432
+compressRatioForAll: 0.424958
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 128 128 30
+the size of file is 4187592310 Bytes 
+gap test
+1-gap-num: 3440313657
+1_ratio: 0.821549
+len_all_runs: 3440313657
+average_runs: 9.72661
+
+ecode block ratio
+block_gamma: 0.0989361
+block_bv: 0.412918
+block_allone: 0.0434662
+block_rldelta: 0.44468
+phi arr cus
+extract test  30 times
+average_extract time: 76.7
+locate test  30 times
+average_locate time: 4014.7
+count test  30 times
+average_count time :38.2667
+space_gamma_phi: 0.110001
+space_bv_phi: 0.426189
+space_allone_phi: 0
+space_rldelta_phi: 0.29672
+compressRatioForAll: 0.376758
+  
+  

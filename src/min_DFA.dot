@@ -1,0 +1,13 @@
+digraph{
+rankdir="LR";
+fontname = "Microsoft YaHei";
+node [shape = circle, fontname = "Microsoft YaHei"];
+edge [fontname = "Microsoft YaHei"];
+-1[style=invis];
+13 [ shape = doublecircle ];
+-1 -> 14;
+14 -> 17[ label = "a" ];
+17 -> 16[ label = "b" ];
+16 -> 15[ label = "c" ];
+15 -> 13[ label = "d" ];
+}

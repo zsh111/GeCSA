@@ -1,0 +1,162 @@
+./testcase /media/lab/MyPassport/gll/human-ref/hg19-ucsc/hg19.fa/hg19.fa 32 128 10
+the size of file is 3199905909 Bytes 
+gap test
+1-gap-num: 1395041528
+1_ratio: 0.435963
+len_all_runs: 1395041528
+average_runs: 2.66234
+
+ecode block ratio
+block_gamma: 0.0355957
+block_bv: 0.851019
+block_allone: 0.0916526
+block_rldelta: 0.021733
+phi arr cus
+extract test  10 times
+average_extract time: 50.4
+locate test  10 times
+average_locate time: 2118.2
+count test  10 times
+average_count time :26.6
+space_gamma_phi: 0.0447428
+space_bv_phi: 0.596153
+space_allone_phi: 0
+space_rldelta_phi: 0.0320334
+compressRatioForAll: 0.679485
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/hg19-ucsc/hg19.fa/hg19.fa 64 128 10
+the size of file is 3199905909 Bytes 
+gap test
+1-gap-num: 1395041528
+1_ratio: 0.435963
+len_all_runs: 1395041528
+average_runs: 2.66234
+
+ecode block ratio
+block_gamma: 0.0359968
+block_bv: 0.846218
+block_allone: 0.0811587
+block_rldelta: 0.0366269
+phi arr cus
+extract test  10 times
+average_extract time: 52.7
+locate test  10 times
+average_locate time: 2296
+count test  10 times
+average_count time :27.9
+space_gamma_phi: 0.0531526
+space_bv_phi: 0.713658
+space_allone_phi: 0
+space_rldelta_phi: 0.0382176
+compressRatioForAll: 0.590224
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/hg19-ucsc/hg19.fa/hg19.fa 128 128 10
+the size of file is 3199905909 Bytes 
+gap test
+1-gap-num: 1395041528
+1_ratio: 0.435963
+len_all_runs: 1395041528
+average_runs: 2.66234
+
+ecode block ratio
+block_gamma: 0.0362567
+block_bv: 0.847071
+block_allone: 0.0773528
+block_rldelta: 0.0393192
+phi arr cus
+extract test  10 times
+average_extract time: 61.7
+locate test  10 times
+average_locate time: 2657
+count test  10 times
+average_count time :30.3
+space_gamma_phi: 0.0579248
+space_bv_phi: 0.791755
+space_allone_phi: 0
+space_rldelta_phi: 0.0418159
+compressRatioForAll: 0.545761
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 32 128 10
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0281279
+block_bv: 0.873189
+block_allone: 0.0766355
+block_rldelta: 0.0220478
+phi arr cus
+extract test  10 times
+average_extract time: 46.5
+locate test  10 times
+average_locate time: 120.2
+count test  10 times
+average_count time :25.2
+space_gamma_phi: 0.0332663
+space_bv_phi: 0.61027
+space_allone_phi: 0
+space_rldelta_phi: 0.0297193
+compressRatioForAll: 0.680102
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 64 128 10
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0275557
+block_bv: 0.866858
+block_allone: 0.0633402
+block_rldelta: 0.042246
+phi arr cus
+extract test  10 times
+average_extract time: 51.3
+locate test  10 times
+average_locate time: 121
+count test  10 times
+average_count time :24.6
+space_gamma_phi: 0.0376045
+space_bv_phi: 0.730348
+space_allone_phi: 0
+space_rldelta_phi: 0.0373989
+compressRatioForAll: 0.591099
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 128 128 10
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0280905
+block_bv: 0.866831
+block_allone: 0.0573225
+block_rldelta: 0.0477564
+phi arr cus
+extract test  10 times
+average_extract time: 65.6
+locate test  10 times
+average_locate time: 150.9
+count test  10 times
+average_count time :25.7
+space_gamma_phi: 0.0408392
+space_bv_phi: 0.811186
+space_allone_phi: 0
+space_rldelta_phi: 0.0415009
+compressRatioForAll: 0.545781
+  
+  

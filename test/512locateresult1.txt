@@ -1,0 +1,45 @@
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 512 1000
+index load
+extract test  1000 times
+average_extract time: 295.682
+locate test  1000 times
+average_locate time: 208640
+count test  1000 times
+average_count time :50.191
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.307287
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194146_1.fastq.dna 256 512 1000
+index load
+extract test  1000 times
+average_extract time: 343.556
+locate test  1000 times
+average_locate time: 366431
+count test  1000 times
+average_count time :57.209
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.308555
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 256 512 1000
+index load
+extract test  1000 times
+average_extract time: 175.842
+locate test  1000 times
+average_locate time: 692909
+count test  1000 times
+average_count time :37.69
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.481153
+  
+  

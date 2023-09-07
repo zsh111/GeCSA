@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRegular.a CMakeFiles/Regular.dir/regular_analysis.cpp.o
+/usr/bin/ranlib libRegular.a
