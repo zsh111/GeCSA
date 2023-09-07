@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/zsh/Desktop/GeCSA/simd
 
-CXX_FLAGS =  -g  -march=native -g -O3 -Wall -DHAVE_CONFIG_H -DBUILD_DIVSUFSORT64 -DDebug -std=gnu++11
+CXX_FLAGS =  -O3  -march=native -g -O3 -Wall -DHAVE_CONFIG_H -DBUILD_DIVSUFSORT64 -DDebug -std=gnu++11
 

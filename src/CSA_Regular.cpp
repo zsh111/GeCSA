@@ -96,12 +96,12 @@ void CSA::regular_expression_search(const char *regular_expression) {
                     }
 
                     delete[] s;
+                    delete[] intersection;
                 }
-                if (intersection) delete[] intersection;
+                // if (intersection) delete[] intersection;
             } else {
                 store_ret(state_now, hop);
             }
-
             qs.pop();
             delete state_now;
             statenum--;
@@ -137,7 +137,7 @@ i64 CSA::newPhi_list(i64 i) {
 
 void CSA::output_re() {
     int64_t intersize = regular_ret.size();
-    std::ofstream outputfile("/home/zsh/桌面/GeCSA/GeCSA64/GeCSA_Regular_Result.txt");
+    std::ofstream outputfile("/home/zsh/Desktop/GeCSA/Gtest/GeCSA.txt");
     for (auto i = 0; i < intersize; ++i) {
         // 获取左右区间
         // auto begin = get<0>(regular_ret[i]);

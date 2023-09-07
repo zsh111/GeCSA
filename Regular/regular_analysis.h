@@ -16,7 +16,7 @@
 #include "DFA_analysis/Parser/BREParser.h"
 #include "DFA_analysis/util/Set.h"
 
-#define arrsize 256 / 64
+#define arrsize 4
 
 #pragma once
 namespace Regular {
