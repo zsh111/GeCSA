@@ -1,0 +1,16 @@
+/home/zsh/Desktop/GeCSA/Regular/build/CMakeFiles/regular_analysis.dir
+/home/zsh/Desktop/GeCSA/Regular/build/CMakeFiles/edit_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/CMakeFiles/rebuild_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/DFA_analysis/CMakeFiles/DFA_analysis.dir
+/home/zsh/Desktop/GeCSA/Regular/build/DFA_analysis/CMakeFiles/edit_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/DFA_analysis/CMakeFiles/rebuild_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/DFA_analysis/Parser/CMakeFiles/Parser.dir
+/home/zsh/Desktop/GeCSA/Regular/build/DFA_analysis/Parser/CMakeFiles/edit_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/DFA_analysis/Parser/CMakeFiles/rebuild_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/DFA_analysis/util/CMakeFiles/edit_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/DFA_analysis/util/CMakeFiles/rebuild_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/DFA_analysis/Automata/CMakeFiles/edit_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/DFA_analysis/Automata/CMakeFiles/rebuild_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/simd_build/CMakeFiles/simd.dir
+/home/zsh/Desktop/GeCSA/Regular/build/simd_build/CMakeFiles/edit_cache.dir
+/home/zsh/Desktop/GeCSA/Regular/build/simd_build/CMakeFiles/rebuild_cache.dir

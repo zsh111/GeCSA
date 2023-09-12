@@ -98,7 +98,6 @@ void CSA::regular_expression_search(const char *regular_expression) {
                     delete[] s;
                     delete[] intersection;
                 }
-                // if (intersection) delete[] intersection;
             } else {
                 store_ret(state_now, hop);
             }

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/regular_analysis.dir/regular_analysis.cpp.o CMakeFiles/regular_analysis.dir/test.cpp.o -o regular_analysis  DFA_analysis/libDFA_analysis.a simd_build/libsimd.a DFA_analysis/Parser/libParser.a 

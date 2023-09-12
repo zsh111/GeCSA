@@ -3,7 +3,7 @@
 #include <iostream>
 
 #include "../simd/simd.h"
-
+#define Debug
 namespace Regular {
 static void event_handler(BREParser::event e_, ATMPL::any msg_) {
     switch (e_) {
@@ -118,4 +118,96 @@ Parser::~Parser() {
         if (Bitarray[i]) delete[] Bitarray[i];
     }
 }
+
+BackParser::BackParser(const char *regular_expression) {
+    using std::vector;
+    std::string s(regular_expression);
+    std::cout << regular_expression << std::endl;
+    BREParser bre_parser;
+    bre_parser.register_event(BREParser::event::NFA_complete, event_handler);
+
+    bre_parser.register_event(BREParser::event::NFA_determinated, event_handler);
+
+    bre_parser.register_event(BREParser::event::DFA_minimized, event_handler);
+
+    auto fa = bre_parser.parse(s);
+
+    int32_t minStateNum = INT32_MAX;
+    statenum = 0;
+
+    for (auto &i : fa.ato_.graph_) {
+        auto number = i.state_;
+        statenum;
+        minStateNum = std::min(minStateNum, number);
+    }
+    minStateNum -= 1;
+    assert(statenum < 64);
+    TransitionMatrix = vector<vector<int64_t>>(statenum + 1, vector<int64_t>(UINT8_MAX + 1, 0));
+    Bitarray = vector<int64_t *>(statenum + 1, nullptr);
+    start = 1;
+    end = fa.ato_.cur_state_ - minStateNum;
+    for (auto &state : fa.ato_.graph_) {
+        auto curstate = state.state_ - minStateNum;
+        // std::cout << number << std::endl;
+        for (auto i = state.directed_->begin(); i != state.directed_->end(); ++i) {
+            auto des_state = i->second.state_ - minStateNum;
+            auto c = i->first;
+            TransitionMatrix[des_state][c] |= table2[curstate];
+        }
+    }
+
+    for (size_t i = 1; i < statenum + 1; ++i) {
+        Bitarray[i] = new int64_t[arrsize];
+        memset(Bitarray[i], 0, arrsize * sizeof(int64_t));
+        for (char16_t j = 0; j <= UINT8_MAX; ++j) {
+            if (TransitionMatrix[i][j]) {
+                Bitarray[i][j >> 6] |= table2[j % 64];
+            }
+        }
+    }
+    ShowTransMatrix();
+}
+
+void BackParser::ShowTransMatrix() {
+    using std::cout;
+    using std::endl;
+    cout << "起始状态为：" << start << endl;
+    cout << "结束状态为：" << end << endl;
+    for (int i = 0; i < TransitionMatrix.size(); ++i) {
+        cout << "状态" << i << "前驱状态为：";
+        for (int j = 0; j < TransitionMatrix[0].size(); ++i) {
+            while (TransitionMatrix[i][j]) {
+                auto num0 = simd::lzcnt(TransitionMatrix[i][j]);
+                TransitionMatrix[i][j] &= table1[num0];
+                cout << num0 << " ";
+            }
+        }
+        cout << endl;
+    }
+
+    for (int i = 0; i < Bitarray.size(); ++i) {
+        if (Bitarray[i]) {
+            auto p = (int64_t *)malloc(arrsize * sizeof(int64_t));
+            memcpy(p, Bitarray[i], arrsize * sizeof(int64_t));
+            cout << "状态" << i << "前驱字符为:";
+            for (size_t j = 0; j < arrsize; ++j) {
+                while (p && simd::popcnt(p[j])) {
+                    char c = simd::lzcnt(p[j]);
+                    p[j] &= table1[c];
+                    c += j << 6;
+                    cout << c << " ";
+                }
+            }
+            cout << endl;
+            free(p);
+        }
+    }
+}
+
+BackParser::~BackParser() {
+    for (int i = 0; i < Bitarray.size(); ++i) {
+        if (Bitarray[i]) delete[] Bitarray[i];
+    }
+}
+
 } // namespace Regular

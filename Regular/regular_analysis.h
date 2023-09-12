@@ -59,13 +59,26 @@ public:
 
 public:
     std::vector<std::vector<int32_t>> Transition_Matrix;
-
     std::vector<int64_t *> Bitarray;
-
     int32_t State_num; // DFA状态数
     int32_t start;     // 起始状态
     int32_t end;       // 终止状态
 };
+
+class BackParser {
+public:
+    explicit BackParser(const char *regular_expression);
+    void ShowTransMatrix();
+    ~BackParser();
+
+private:
+    std::vector<int64_t *> Bitarray;
+    std::vector<std::vector<int64_t>> TransitionMatrix;
+    int32_t statenum;
+    int32_t start;
+    int32_t end;
+};
+
 }; // namespace Regular
 
 #endif
