@@ -16,6 +16,7 @@ set(OLD_GLOB
   "/home/zsh/Desktop/GeCSA/./include/parmaters.h"
   "/home/zsh/Desktop/GeCSA/./include/savekit.h"
   "/home/zsh/Desktop/GeCSA/./include/select.h"
+  "/home/zsh/Desktop/GeCSA/./include/timer.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

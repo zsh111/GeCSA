@@ -71,7 +71,7 @@ public:
     void ShowTransMatrix();
     ~BackParser();
 
-private:
+public:
     std::vector<int64_t *> Bitarray;
     std::vector<std::vector<int64_t>> TransitionMatrix;
     int32_t statenum;

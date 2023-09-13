@@ -921,6 +921,7 @@ CMakeFiles/gencsa.dir/src/CSA_Regular.cpp.o
  /usr/include/assert.h
  /home/zsh/Desktop/GeCSA/include/intrinsics.hpp
  /home/zsh/Desktop/GeCSA/include/tables.hpp
+ /home/zsh/Desktop/GeCSA/include/timer.h
  /home/zsh/Desktop/GeCSA/simd/simd.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h
  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h

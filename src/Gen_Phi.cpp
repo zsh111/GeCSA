@@ -410,6 +410,7 @@ i64 GEN_Phi::GetValue(i64 index, i64 &position) {
             break;
     }
 }
+
 void GEN_Phi::SamplingAndCoding(parmaters *csa) {
     i64 i, j;
 
@@ -883,6 +884,8 @@ i64 GEN_Phi::RightBoundary(i64 pr, i64 l, i64 r) {
     }
 }
 
+//后面再改动，封装解码方式
+//还是有bug
 i64 GEN_Phi::LeftBoundary(i64 pl, i64 l, i64 r) {
     i64 ans = 0;
     i64 SL = this->a;

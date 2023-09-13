@@ -918,6 +918,7 @@ CMakeFiles/gencsa.dir/src/CSA_Regular.cpp.o: ../src/CSA_Regular.cpp \
   /usr/include/assert.h \
   ../include/intrinsics.hpp \
   ../include/tables.hpp \
+  ../include/timer.h \
   ../simd/simd.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h \
@@ -2157,6 +2158,8 @@ CMakeFiles/gencsa.dir/src/savekit.cpp.o: ../src/savekit.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/rdseedintrin.h:
 
 ../simd/simd.h:
+
+../include/timer.h:
 
 ../src/CSA_Regular.cpp:
 

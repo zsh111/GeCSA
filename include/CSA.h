@@ -129,21 +129,9 @@ public:
         int32_t id;
         int64_t begin;
         int64_t end;
-        unordered_map<char16_t, pair<int64_t, int64_t>> m; // 表示当前区间的字符集和区间映射
-        int64_t *bitmap;
-        state(int32_t i, int64_t begin, int64_t end) : id(i), begin(begin), end(end) {
-            bitmap = new int64_t[arrsize];
-            memset(bitmap, 0, arrsize * sizeof(int64_t));
-        }
-        ~state() { delete[] bitmap; }
+        explicit state(int32_t i, int64_t b, int64_t e) : id(i), begin(b), end(e) {}
     };
-    int64_t *distinct_interval_aplphabet(state *s, int32_t hop);
-
-    // 找到字符c hop跳在区间的[begin,end]之间的左右区间
-    bool FindBoundary(state *s, int32_t hop, char16_t c);
-
-    // 尽量将GethopRank优化为常数
-    inline int64_t GethopRank(int64_t rank, int32_t hop);
+    auto FindBoundary(int64_t left, int64_t right, int64_t PreLeft, int64_t PreRight) -> pair<int64_t, int64_t>;
 
     inline void store_ret(state *s, int32_t hop);
 
@@ -154,6 +142,4 @@ public:
     void test_regular();
 
     void output_re();
-
-    int64_t *bit_and(int64_t *p1, int64_t *p2);
 };

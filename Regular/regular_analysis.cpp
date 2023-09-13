@@ -137,11 +137,12 @@ BackParser::BackParser(const char *regular_expression) {
 
     for (auto &i : fa.ato_.graph_) {
         auto number = i.state_;
-        statenum;
+        statenum++;
         minStateNum = std::min(minStateNum, number);
     }
     minStateNum -= 1;
-    assert(statenum < 64);
+    if (statenum >= 64) std::cerr << "State number must less 64" << std::endl;
+
     TransitionMatrix = vector<vector<int64_t>>(statenum + 1, vector<int64_t>(UINT8_MAX + 1, 0));
     Bitarray = vector<int64_t *>(statenum + 1, nullptr);
     start = 1;
@@ -165,7 +166,7 @@ BackParser::BackParser(const char *regular_expression) {
             }
         }
     }
-    ShowTransMatrix();
+    // ShowTransMatrix();
 }
 
 void BackParser::ShowTransMatrix() {
@@ -175,10 +176,11 @@ void BackParser::ShowTransMatrix() {
     cout << "结束状态为：" << end << endl;
     for (int i = 0; i < TransitionMatrix.size(); ++i) {
         cout << "状态" << i << "前驱状态为：";
-        for (int j = 0; j < TransitionMatrix[0].size(); ++i) {
-            while (TransitionMatrix[i][j]) {
-                auto num0 = simd::lzcnt(TransitionMatrix[i][j]);
-                TransitionMatrix[i][j] &= table1[num0];
+        for (int j = 0; j < TransitionMatrix[0].size(); ++j) {
+            auto temp = TransitionMatrix[i][j];
+            while (temp) {
+                auto num0 = static_cast<int32_t>(simd::lzcnt(temp));
+                temp &= table1[num0];
                 cout << num0 << " ";
             }
         }
