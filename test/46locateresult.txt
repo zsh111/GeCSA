@@ -1,0 +1,60 @@
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 256 32 1000
+index load
+extract test  1000 times
+average_extract time: 48.537
+locate test  1000 times
+average_locate time: 18357.2
+count test  1000 times
+average_count time :66.282
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.544486
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 256 64 1000
+index load
+extract test  1000 times
+average_extract time: 114.298
+locate test  1000 times
+average_locate time: 47044.2
+count test  1000 times
+average_count time :51.448
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.419486
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 256 128 1000
+index load
+extract test  1000 times
+average_extract time: 105.506
+locate test  1000 times
+average_locate time: 114376
+count test  1000 times
+average_count time :49.879
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.355002
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 256 256 1000
+index load
+extract test  1000 times
+average_extract time: 175.407
+locate test  1000 times
+average_locate time: 208763
+count test  1000 times
+average_count time :67.863
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.323722
+  
+  

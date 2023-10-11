@@ -1,0 +1,1 @@
+add_library(Parser BREParser.cpp ../third_part/ATMPL/any/any.hpp ../Automata/FA.cpp)

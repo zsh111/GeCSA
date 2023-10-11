@@ -1,0 +1,44 @@
+./testcase /home/lab/lab/oldlab/lab/testfile/proteins 64 128
+the size of file is 1184051855 Bytes 
+1: 742193386 0.626825
+2-3: 48112224 0.0406335
+3-15: 129797383 0.109621
+16~: 263948861 0.22292
+phi arr cus
+csa construct done
+ratioForall: 0.632335
+  
+  
+./testcase /home/lab/lab/oldlab/lab/testfile/proteins 128 128
+the size of file is 1184051855 Bytes 
+1: 742193386 0.626825
+2-3: 48112224 0.0406335
+3-15: 129797383 0.109621
+16~: 263948861 0.22292
+phi arr cus
+csa construct done
+ratioForall: 0.587112
+  
+  
+./testcase /home/lab/lab/oldlab/lab/testfile/proteins 256 128
+the size of file is 1184051855 Bytes 
+1: 742193386 0.626825
+2-3: 48112224 0.0406335
+3-15: 129797383 0.109621
+16~: 263948861 0.22292
+phi arr cus
+csa construct done
+ratioForall: 0.56434
+  
+  
+./testcase /home/lab/lab/oldlab/lab/testfile/proteins 512 128
+the size of file is 1184051855 Bytes 
+1: 742193386 0.626825
+2-3: 48112224 0.0406335
+3-15: 129797383 0.109621
+16~: 263948861 0.22292
+phi arr cus
+csa construct done
+ratioForall: 0.55391
+  
+  

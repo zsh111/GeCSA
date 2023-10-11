@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDFA_analysis.a 
+/usr/bin/ranlib libDFA_analysis.a

@@ -1,0 +1,4 @@
+/home/zsh/Desktop/GeCSA/Gtest/build/CMakeFiles/test_dna.dir
+/home/zsh/Desktop/GeCSA/Gtest/build/CMakeFiles/test.dir
+/home/zsh/Desktop/GeCSA/Gtest/build/CMakeFiles/edit_cache.dir
+/home/zsh/Desktop/GeCSA/Gtest/build/CMakeFiles/rebuild_cache.dir

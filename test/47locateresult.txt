@@ -1,0 +1,108 @@
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 32 2000
+the size of file is 5368709136 Bytes 
+gap test
+1-gap-num: 4392521000
+1_ratio: 0.818171
+len_all_runs: 4392521000
+average_runs: 9.48668
+
+ecode block ratio
+block_gamma: 0.0659547
+block_bv: 0.399154
+block_allone: 0.0195181
+block_rldelta: 0.515373
+phi arr cus
+extract test  2000 times
+average_extract time: 45.3935
+locate test  2000 times
+average_locate time: 11125.3
+count test  2000 times
+average_count time :47.769
+space_gamma_phi: 0.0779879
+space_bv_phi: 0.449785
+space_allone_phi: 0
+space_rldelta_phi: 0.380047
+compressRatioForAll: 0.551481
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 64 2000
+the size of file is 5368709136 Bytes 
+gap test
+1-gap-num: 4392521000
+1_ratio: 0.818171
+len_all_runs: 4392521000
+average_runs: 9.48668
+
+ecode block ratio
+block_gamma: 0.0659547
+block_bv: 0.399154
+block_allone: 0.0195181
+block_rldelta: 0.515373
+phi arr cus
+extract test  2000 times
+average_extract time: 64.1365
+locate test  2000 times
+average_locate time: 29840.4
+count test  2000 times
+average_count time :47.889
+space_gamma_phi: 0.0779879
+space_bv_phi: 0.449785
+space_allone_phi: 0
+space_rldelta_phi: 0.380047
+compressRatioForAll: 0.422544
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 128 2000
+the size of file is 5368709136 Bytes 
+gap test
+1-gap-num: 4392521000
+1_ratio: 0.818171
+len_all_runs: 4392521000
+average_runs: 9.48668
+
+ecode block ratio
+block_gamma: 0.0659547
+block_bv: 0.399154
+block_allone: 0.0195181
+block_rldelta: 0.515373
+phi arr cus
+extract test  2000 times
+average_extract time: 97.419
+locate test  2000 times
+average_locate time: 73799
+count test  2000 times
+average_count time :47.3825
+space_gamma_phi: 0.0779879
+space_bv_phi: 0.449785
+space_allone_phi: 0
+space_rldelta_phi: 0.380047
+compressRatioForAll: 0.360013
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 256 2000
+the size of file is 5368709136 Bytes 
+gap test
+1-gap-num: 4392521000
+1_ratio: 0.818171
+len_all_runs: 4392521000
+average_runs: 9.48668
+
+ecode block ratio
+block_gamma: 0.0659547
+block_bv: 0.399154
+block_allone: 0.0195181
+block_rldelta: 0.515373
+phi arr cus
+extract test  2000 times
+average_extract time: 167.384
+locate test  2000 times
+average_locate time: 150344
+count test  2000 times
+average_count time :47.941
+space_gamma_phi: 0.0779879
+space_bv_phi: 0.449785
+space_allone_phi: 0
+space_rldelta_phi: 0.380047
+compressRatioForAll: 0.32971
+  
+  

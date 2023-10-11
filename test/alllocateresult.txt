@@ -1,0 +1,240 @@
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 256 32 2000
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0297105
+block_bv: 0.866745
+block_allone: 0.0546149
+block_rldelta: 0.0489294
+phi arr cus
+extract test  2000 times
+average_extract time: 28.321
+locate test  2000 times
+average_locate time: 545730
+count test  2000 times
+average_count time :37.419
+space_gamma_phi: 0.0436489
+space_bv_phi: 0.856492
+space_allone_phi: 0
+space_rldelta_phi: 0.043124
+compressRatioForAll: 0.710279
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 256 64 2000
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0297105
+block_bv: 0.866745
+block_allone: 0.0546149
+block_rldelta: 0.0489294
+phi arr cus
+extract test  2000 times
+average_extract time: 39.1455
+locate test  2000 times
+average_locate time: 603085
+count test  2000 times
+average_count time :110.763
+space_gamma_phi: 0.0436489
+space_bv_phi: 0.856492
+space_allone_phi: 0
+space_rldelta_phi: 0.043124
+compressRatioForAll: 0.585248
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 256 128 2000
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0297105
+block_bv: 0.866745
+block_allone: 0.0546149
+block_rldelta: 0.0489294
+phi arr cus
+extract test  2000 times
+average_extract time: 58.7205
+locate test  2000 times
+average_locate time: 608907
+count test  2000 times
+average_count time :40.52
+space_gamma_phi: 0.0436489
+space_bv_phi: 0.856492
+space_allone_phi: 0
+space_rldelta_phi: 0.043124
+compressRatioForAll: 0.524671
+  
+  
+./testcase /media/lab/MyPassport/gll/human-ref/GRCh38-ncbi/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna 256 256 2000
+the size of file is 3144230986 Bytes 
+gap test
+1-gap-num: 1353152200
+1_ratio: 0.43036
+len_all_runs: 1353152200
+average_runs: 2.57455
+
+ecode block ratio
+block_gamma: 0.0297105
+block_bv: 0.866745
+block_allone: 0.0546149
+block_rldelta: 0.0489294
+phi arr cus
+extract test  2000 times
+average_extract time: 99.832
+locate test  2000 times
+average_locate time: 626590
+count test  2000 times
+average_count time :40.57
+space_gamma_phi: 0.0436489
+space_bv_phi: 0.856492
+space_allone_phi: 0
+space_rldelta_phi: 0.043124
+compressRatioForAll: 0.495343
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 32 2000
+index load
+extract test  2000 times
+average_extract time: 45.765
+locate test  2000 times
+average_locate time: 10840
+count test  2000 times
+average_count time :50.641
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.551481
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 64 2000
+index load
+extract test  2000 times
+average_extract time: 67.948
+locate test  2000 times
+average_locate time: 27971
+count test  2000 times
+average_count time :50.7075
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.422544
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 128 2000
+index load
+extract test  2000 times
+average_extract time: 103.77
+locate test  2000 times
+average_locate time: 68479.3
+count test  2000 times
+average_count time :50.7595
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.360013
+  
+  
+./testcase /home/lab/lab/lp/samcode/ERR47/ERR194147_2.fastq.dna 256 256 2000
+index load
+extract test  2000 times
+average_extract time: 188.438
+locate test  2000 times
+average_locate time: 135874
+count test  2000 times
+average_count time :53.081
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.32971
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 256 32 2000
+the size of file is 8589934557 Bytes 
+gap test
+1-gap-num: 7069520251
+1_ratio: 0.823
+len_all_runs: 7069519949
+average_runs: 9.70069
+
+ecode block ratio
+block_gamma: 0.0410367
+block_bv: 0.360987
+block_allone: 0.011542
+block_rldelta: 0.586435
+phi arr cus
+extract test  2000 times
+average_extract time: 50.062
+locate test  2000 times
+average_locate time: 3.47145e+06
+count test  2000 times
+average_count time :52.931
+space_gamma_phi: 0.0501353
+space_bv_phi: 0.40561
+space_allone_phi: 0
+space_rldelta_phi: 0.44983
+compressRatioForAll: 0.544486
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 256 64 2000
+index load
+extract test  2000 times
+average_extract time: 75.962
+locate test  2000 times
+average_locate time: 878760
+count test  2000 times
+average_count time :52.869
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.419486
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 256 128 2000
+index load
+extract test  2000 times
+average_extract time: 109.752
+locate test  2000 times
+average_locate time: 1.63592e+06
+count test  2000 times
+average_count time :53.338
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.355002
+  
+  
+./testcase /media/lab/802505ad-4b0f-498b-b65f-07656d880d7d/fastqDivisionData/ERR194146_1.fastq.dna 256 256 2000
+index load
+extract test  2000 times
+average_extract time: 186.987
+locate test  2000 times
+average_locate time: 2.52144e+06
+count test  2000 times
+average_count time :53.5375
+space_gamma_phi: 0
+space_bv_phi: 0
+space_allone_phi: 0
+space_rldelta_phi: 0
+compressRatioForAll: 0.323722
+  
+  
